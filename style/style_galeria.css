@@ -1,0 +1,93 @@
+/* @import url("https://fonts.googleapis.com/css?family=Muli&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap"); */
+
+body {
+  background-color: #212529;
+}
+
+p {
+  text-align: justify;
+  color: #6c757d;
+}
+
+#galeriaszov {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#kiskepek h3 {
+  color: #6c757d;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#kiskepek p {
+  color: #6c757d;
+}
+
+/* Bea galéria php stíluslap: */
+
+#kiskepek img {
+  height: 200px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: black 5px 5px 5px;
+}
+
+#kiskepek img:hover {
+  /* box-shadow: darkgrey 0 0 0; */
+  opacity: 0.6;
+}
+
+#kiskepek img:active {
+  box-shadow: rgb(48, 46, 46) 0 0 0;
+}
+
+#kiskepek {
+  z-index: 1;
+  text-align: center;
+}
+
+.leiras {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#nagykep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(128, 128, 128, 0.9);
+}
+
+#nagykep table {
+  margin: 65px auto 0 auto;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+#kepnagydoboz {
+  padding-bottom: 25px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.lapoz {
+  width: 25px;
+}
+
+.cim {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cim a {
+  text-decoration: none;
+  color: black;
+}
