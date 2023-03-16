@@ -1,0 +1,50 @@
+body {
+  background-color: #212529;
+}
+
+#kiskepek img {
+  height: 200px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: darkgrey 5px 5px 5px;
+}
+
+#kiskepek img:hover {
+  box-shadow: darkgrey 0 0 0;
+}
+
+#kiskepek {
+  z-index: 1;
+}
+
+#nagykep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: rgba(128, 128, 128, 0.9);
+}
+
+#nagykep table {
+  margin: 15px auto;
+  background-color: white;
+  padding-bottom: 25px;
+}
+
+.lapoz {
+  width: 25px;
+}
+
+.cim {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cim a {
+  text-decoration: none;
+  color: black;
+}
