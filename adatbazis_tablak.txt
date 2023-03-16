@@ -1,0 +1,24 @@
+Admin tábla létrehozása:
+
+CREATE TABLE `admin` (
+  `azon` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `jelszo` varchar(250) COLLATE utf8_hungarian_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+Kategória tábla létrehozása:
+
+CREATE TABLE `kategoria` (
+  `id` int(11) NOT NULL,
+  `neve` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
+  `leiras` text COLLATE utf8_hungarian_ci NOT NULL,
+  `aktualis` tinyint(1) NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+Kepek tábla létrehozása:
+
+CREATE TABLE `kepek` (
+  `id` int(11) NOT NULL,
+  `neve` varchar(250) COLLATE utf8_hungarian_ci NOT NULL,
+  `kategoria_id` int(11) NOT NULL,
+  `sorszam` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
